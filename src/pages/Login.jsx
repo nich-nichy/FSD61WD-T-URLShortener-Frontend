@@ -61,7 +61,7 @@ const Login = () => {
                                     Swal.fire({
                                         icon: "error",
                                         title: "Oops...",
-                                        text: error
+                                        text: error.response.data.message || "An error occurred. Please try again later."
                                     });
                                 } finally {
                                     setSubmitting(false);
