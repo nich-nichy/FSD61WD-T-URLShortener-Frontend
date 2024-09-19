@@ -2,9 +2,6 @@ import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios';
 import { Spinner } from 'react-bootstrap';
-import { useSelector, useDispatch } from "react-redux";
-import { setNavbarState } from '../redux/slices/urlSlice';
-import { useVerifyToken } from '../utils/verifyUser';
 
 const RedirectToOriginal = ({ setHideSidebar }) => {
     const { slug } = useParams();

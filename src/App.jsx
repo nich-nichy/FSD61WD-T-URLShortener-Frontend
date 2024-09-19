@@ -18,11 +18,9 @@ function App() {
   const dispatch = useDispatch();
   const [hideSidebar, setHideSidebar] = useState(true);
   const navbarState = useSelector((state) => state.urlShortner.navbar.navbarState);
-
   const handleSidebarToggle = (isOpen) => {
     dispatch(setNavbarToggle(isOpen));
   };
-
   return (
     <>
       <Router>
