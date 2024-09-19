@@ -7,7 +7,7 @@ A URL shortener is a tool that takes a long URL (web address) and converts it in
 Example: A long URL like 
 
 ```
-https://www.example.com/some/really/long/path/file+to+html&oq=how+to+add+a+css+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRg80gEIMzcwMmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8
+https://www.example.com/some/really/long/path?file+to+html&oq=how+to+add+a+css+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRg80gEIMzcwMmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8
 ```
 
 Might become
