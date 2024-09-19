@@ -1,8 +1,6 @@
 import React from 'react'
-import { useVerifyToken } from '../utils/verifyUser';
 
 const Info = () => {
-    useVerifyToken();
     return (
         <div className="d-flex justify-content-center align-items-center vh-100">
             <div className="text-center" role="alert">
