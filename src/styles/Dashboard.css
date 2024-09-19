@@ -1,0 +1,55 @@
+.theme {
+    background-color: white !important;
+}
+
+.dashboard-content {
+    padding-top: 30px;
+    padding-left: 60px;
+    width: 100%;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.sidebar.open+.dashboard-content {
+    margin-left: 150px;
+}
+
+.card-purple-blue {
+    background: linear-gradient(45deg, #6d80fe 0%, #23d2fd 100%);
+    box-shadow: 0 5px 20px rgba(35, 210, 253, 0.3);
+}
+
+.card-salmon-pink {
+    background: linear-gradient(45deg, #ff998b 0%, #ff6d88 100%);
+    box-shadow: 0 5px 20px rgba(255, 153, 139, 0.3);
+}
+
+.card-blue-green {
+    background: linear-gradient(45deg, #09afe8 0%, #29f499 100%);
+    box-shadow: 0 5px 20px rgba(41, 244, 153, 0.3);
+}
+
+.card-purple-pink {
+    background: linear-gradient(45deg, #707cff 0%, #fa81e8 100%);
+    box-shadow: 0 5px 20px rgba(250, 129, 232, 0.3);
+}
+
+.blur-content {
+    filter: blur(6px);
+    transition: filter 0.3s ease-in-out;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 15px 20px;
+}

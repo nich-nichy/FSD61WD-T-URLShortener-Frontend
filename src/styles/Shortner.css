@@ -1,0 +1,27 @@
+.shortner-container {
+    padding-top: 30px;
+    padding-left: 60px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.sidebar.open+.shortner-container {
+    margin-left: 150px;
+}
+
+.shortner-container .ag-header {
+    font-weight: 600;
+}
+
+.shortner-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.shortner-container a:hover {
+    text-decoration: underline;
+}
+
+.blur-content {
+    filter: blur(5px);
+}
