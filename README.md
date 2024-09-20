@@ -15,3 +15,11 @@ Might become
 ```
 https://url-shortner-t.netlify.app/randomSlug
 ```
+
+Tech stacks used:
+- React
+- Redux
+- Bootstrap
+- Node
+- Express
+- MongoDB
